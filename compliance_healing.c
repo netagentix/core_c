@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------------------
- * Agentix OS - Quantum Continuous Engine
- * Copyright (C) 2026 Agentix Project
+ * Spatioz OS - Quantum Continuous Engine
+ * Copyright (C) 2026 Spatioz Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published
@@ -18,7 +18,7 @@
  * ----------------------------------------------------------------------------
  */
 
-// KERNEL AGENTIX OS — compliance_healing.c
+// KERNEL SPATIOZ OS — compliance_healing.c
 // Module 7: Compliance & Self-Healing (Branchless, C)
 #include "corekernel.c"
 

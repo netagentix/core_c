@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------------------
- * Agentix OS - Quantum Continuous Engine
- * Copyright (C) 2026 Agentix Project
+ * Spatioz OS - Quantum Continuous Engine
+ * Copyright (C) 2026 Spatioz Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published
@@ -18,7 +18,7 @@
  * ----------------------------------------------------------------------------
  */
 
-// KERNEL AGENTIX OS — tension_engine.c
+// KERNEL SPATIOZ OS — tension_engine.c
 // Module 1: Tension Logic Engine (Branchless, C)
 #include "corekernel.c"
 
@@ -64,6 +64,6 @@ VectorND compute_symmetry_breaking(double temperature) {
     double mag = temperature * sqrt(-2.0 * log(u1));
     double angle = 2.0 * M_PI * u2;
     double data[2] = {mag * cos(angle), mag * sin(angle)};
-    VectorND noise; noise.data = data; noise.dim = 2; // Notice: dynamically returned VectorND would need proper alloc in actual C usage, but we follow Agentix branchless math pattern
+    VectorND noise; noise.data = data; noise.dim = 2; // Notice: dynamically returned VectorND would need proper alloc in actual C usage, but we follow Spatioz branchless math pattern
     return noise;
 }
